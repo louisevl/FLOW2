@@ -1,0 +1,68 @@
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #fcbdae;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+header{
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-right: 25px;
+    float: right;
+}
+.logo{
+    padding: 10px;
+    padding-right: 25px;
+}
+.navknap{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.navknap:active{
+    color: black;
+}
+.navknap:visited{
+    color:black;
+}
+.navknap:hover{
+    color:blueviolet;
+    /*text-decoration: underline;*/  
+}
+.herobox1{
+    font-size: 100px;
+    padding-top: 15%;
+    padding-left: 100px;
+    display: flex;
+}
+h1{
+    width: 950px;
+    font-weight:bold;
+    /*text-align: justify;*/
+}
+.herobox2{
+    padding-top: 300px;
+    padding-left:100px;
+    padding-right:100px;
+    font-size: 75px;
+    width: 675px;
+}
+p{
+    padding-top: 50px;
+    font-size: x-large;
+    padding-bottom: 50px;
+    text-align: justify;
+    
+}
+
+
+
